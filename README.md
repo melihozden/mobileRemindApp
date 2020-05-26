@@ -15,7 +15,7 @@ https://youtu.be/O6Orl_t2NAk
 
 - [ ] 1. Görev, Doğumgünü, Toplantı vb. Etkinliklerin Yönetimi
   - [x] a. Listeleme,Ekleme,Silme,Güncelleme
-  - [ ] a. Günlük,Haftalık,Aylık Gösterim
+  - [ ] b. Günlük,Haftalık,Aylık Gösterim
 - [x] 2. Hatırlatma Özelliği
   - [x] a. Tarih ve Zaman Atama, İstenilen Zamanlarda Hatırlatma
   - [x] b. Bildirim ve/veya AlertDialog yardımı ile bilgilendirme
