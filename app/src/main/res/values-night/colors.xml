@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3777FF</color>
+    <color name="colorPrimaryDark">#3777FF</color>
+    <color name="colorAccent">#3777FF</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+
+    <!-- Radio Button's Colors -->
+    <color name="radioRed">#E54B4B</color>
+    <color name="radioBlue">#4591D4</color>
+    <color name="radioYellow">#FFBB00</color>
+    <color name="radioGreen">#02D81F</color>
+    <color name="radioPurple">#DB00EB</color>
+    <color name="radioGrey">#6E6E6E</color>
+
+
+    <!-- for night Mode -->
+    <color name="backgroundColor">#1E2124</color>
+    <color name="textColor">#FFFFFF</color>
+
+
+</resources>

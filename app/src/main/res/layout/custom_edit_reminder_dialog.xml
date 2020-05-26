@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Reminder"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:gravity="left"
+        android:padding="10dp"
+        android:layout_weight="0.6"
+
+        />
+
+        <Button
+            android:id="@+id/dialogShareButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share"
+            android:background="@drawable/share_button"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:layout_weight="0.4"
+            android:textColor="@color/colorPrimary"
+
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Date and Time*"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        >
+
+
+
+        <Button
+            android:id="@+id/dialogDateButton"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="0.6"
+            android:text="Set Date"
+            android:background="@drawable/date_button_shape"
+            android:drawableStart="@drawable/ic_date_range_black_24dp"
+
+            />
+
+        <Button
+            android:id="@+id/dialogTimeButton"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:text="Set Tıme"
+            android:background="@drawable/time_button_shape"
+            android:drawableStart="@drawable/ic_access_alarm_black_24dp"
+            />
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Repeat"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+    <Spinner
+        android:id="@+id/dialogRepeatSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/titleView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title*"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            />
+
+        <EditText
+            android:id="@+id/dialogReminderTitle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <EditText
+            android:id="@+id/dialogDescription"
+            android:layout_width="match_parent"
+            android:gravity="top|left"
+            android:inputType="textMultiLine"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        >
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Priority"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.3"
+
+            />
+
+        <Switch
+            android:id="@+id/dialogPrioritySwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.7"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RadioGroup
+            android:id="@+id/dialogRadioGrup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/radioRed"
+                android:layout_margin="2dp"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/radioBlue"
+                android:layout_margin="2dp"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/radioYellow"
+                android:layout_margin="2dp"
+
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/radioGreen"
+                android:layout_margin="2dp"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/radioPurple"
+                android:layout_margin="2dp"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/radioGrey"
+                android:layout_margin="2dp"
+
+                />
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        >
+
+    <Button
+        android:id="@+id/dialogEditButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/savebutton"
+        android:drawableTop="@drawable/ic_edit_black_24dp"
+        android:padding="5dp"
+        />
+
+    <Button
+        android:id="@+id/dialogDeleteButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/deletebutton"
+        android:drawableTop="@drawable/ic_clear_black_24dp"
+        android:padding="5dp"
+        android:layout_marginLeft="25dp"
+        />
+
+    </LinearLayout>
+
+
+</LinearLayout>

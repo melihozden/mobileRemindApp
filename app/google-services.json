@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "887520088745",
+    "firebase_url": "https://fir-new-ef3fb.firebaseio.com",
+    "project_id": "fir-new-ef3fb",
+    "storage_bucket": "fir-new-ef3fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887520088745:android:05f1fa307bc006416ccfb8",
+        "android_client_info": {
+          "package_name": "com.melihozden.mobileremindapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887520088745-7nca0hjjvur03jirjkshtofpthanccfc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcJgVmBkjE7T9brYL4Ne8L4FuP2Ij6hDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887520088745-7nca0hjjvur03jirjkshtofpthanccfc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
